@@ -20,8 +20,11 @@ public class UserMarkDAOTest {
 
 	private UserMarkDAO userMarkDAO;
 
+	/**
+	 * Test initialization
+	 */
 	@BeforeMethod
-	private void initialize() {
+	public void initialize() {
 		userMarkDAO = new UserMarkDAO();
 	}
 	

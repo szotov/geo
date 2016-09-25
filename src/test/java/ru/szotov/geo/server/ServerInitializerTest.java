@@ -39,8 +39,11 @@ public class ServerInitializerTest {
 	
 	private ServerInitializer serverInitializer;
 	
+	/**
+	 * Test initialization
+	 */
 	@BeforeMethod
-	private void initialize() {
+	public void initialize() {
 		MockitoAnnotations.initMocks(this);
 		serverInitializer = new ServerInitializer();
 		serverInitializer.setGeoNetPointDAO(geoNetPointDAOMock);

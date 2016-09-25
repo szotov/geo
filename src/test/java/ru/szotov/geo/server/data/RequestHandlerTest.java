@@ -31,8 +31,11 @@ public class RequestHandlerTest {
 	
 	private RequestHandler handler;
 	
+	/**
+	 * Test initialization
+	 */
 	@BeforeMethod
-	private void initialize() {
+	public void initialize() {
 		MockitoAnnotations.initMocks(this);
 		handler = new RequestHandler();
 		handler.setGeoNetPointDAO(geoNetPointDAOMock);

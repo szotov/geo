@@ -19,8 +19,11 @@ public class GeoNetPointDAOTest {
 
 	private GeoNetPointDAO geoNetPointDAO;
 
+	/**
+	 * Test initialization
+	 */
 	@BeforeMethod
-	private void initialize() {
+	public void initialize() {
 		geoNetPointDAO = new GeoNetPointDAO();
 	}
 	
